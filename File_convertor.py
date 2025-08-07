@@ -13,7 +13,7 @@ from PyPDF2 import PdfReader
 class FileConverter:
     @staticmethod
     def _validate_extension(file_path, valid_exts, file_desc="file"):
-        """Ensure the file has one of the valid extensions."""
+        # Ensure the file has one of the valid extensions.
         ext = os.path.splitext(file_path)[1].lower()
         if ext not in valid_exts:
             raise ValueError(f"Invalid extension for {file_desc}: '{ext}'. Expected one of {valid_exts}.")
@@ -257,3 +257,4 @@ class FileConverter:
 
 if __name__ == '__main__':
     FileConverter.main()
+
