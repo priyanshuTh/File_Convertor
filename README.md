@@ -42,8 +42,8 @@ sudo apt-get update && sudo apt-get install libreoffice
 
 1. **Clone or copy** the `FileConverter` script:
    ```bash
-   git clone https://your-repo-url.git
-   cd your-repo-url
+   git clone https://github.com/priyanshuTh/File_Convertor.git
+   cd File_Convertor
    ```
 2. **Run** the script:
    ```bash
@@ -58,23 +58,23 @@ sudo apt-get update && sudo apt-get install libreoffice
 
   ```bash
   Choice: 1
-  Source path: data.csv
-  Destination path: report.xlsx
+  Source path:  C:\Users\Downloads\report.csv
+  Destination path: C:\Users\Downloads\report.xlsx
   ```
 
 - Convert PPTX to PDF:
 
   ```bash
   Choice: 9
-  Source path: presentation.pptx
-  Destination path: presentation.pdf
+  Source path: C:\Users\Downloads\presentation.pptx
+  Destination path: C:\Users\Downloads\presentation.pdf
   ```
 
 - Batch-export PDF pages to PNG images:
 
   ```bash
   Choice: 13
-  Source path: document.pdf
+  Source path: C:\Users\Downloads\document.pdf
   Output folder: ./images
   ```
 
